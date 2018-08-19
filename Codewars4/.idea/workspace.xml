@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="173c2c30-115e-412a-996d-70ef2c7312e0" name="Default Changelist" comment="" />
+    <list default="true" id="173c2c30-115e-412a-996d-70ef2c7312e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/ArrayList&amp;Fail.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/out/production/ArrayList&amp;Fail/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/out/production/ArrayList&amp;Fail/com/company/RectanglesUnion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayList&amp;Fail/src/com/company/RectanglesUnion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codewars4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codewars4/Codewars3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codewars4/Figure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codewars4/Figure1a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codewars4/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codewars4/RectanglesUnion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codewars4/RectanglesUnion6b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codewars4/rectangle6B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codewars3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RectanglesUnion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RectanglesUnion6b.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/Codewars5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/out/production/Codewars5/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/out/production/Codewars5/com/company/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/out/production/Codewars5/com/company/RectanglesUnion$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/out/production/Codewars5/com/company/RectanglesUnion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars5/src/com/company/RectanglesUnion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars6/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars6/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars6/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars6/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars6/Codewars6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars6/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codewars6/src/com/company/RectanglesUnion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Divide&amp;Conquer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Divide&amp;Conquer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Divide&amp;Hashset/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Divide&amp;Hashset/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Divide&amp;Hashset/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Divide&amp;Hashset/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Divide&amp;Hashset/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Divide&amp;Hashset/Divide&amp;Hashset.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Divide&amp;Hashset/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Divide&amp;Hashset/src/com/company/RectanglesUnion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GHTest3/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GHTest3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GHTest3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GHTest3/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GHTest3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GHTest3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GHTest3/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GHTest3/untitled104.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,51 +113,38 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1909296513">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.31719127">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Codewars3.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="21" selection-end-line="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/RectanglesUnion6b.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="13" column="40" selection-end-line="282" selection-end-column="11" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/RectanglesUnion.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="53" column="120" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="120" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,28 +153,51 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test.java" />
         <option value="$PROJECT_DIR$/src/RectanglesUnion6c.java" />
-        <option value="$PROJECT_DIR$/src/RectanglesUnion6b.java" />
         <option value="$PROJECT_DIR$/src/Codewars3.java" />
         <option value="$PROJECT_DIR$/src/RectanglesUnion.java" />
+        <option value="$PROJECT_DIR$/Codewars4.iml" />
+        <option value="$PROJECT_DIR$/src/RectanglesUnion6b.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-339" />
-    <option name="y" value="191" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Codewars4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Caius\Documents\GitHub\Codewars\Codewars4" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Codewars4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Caius\Documents\GitHub\Codewars\Codewars4" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,13 +220,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533963463724" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArraylistAndCunt" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -199,9 +276,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-339" y="191" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120469086" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -217,8 +294,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.30911064" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.30911064" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -232,45 +309,37 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RectanglesUnion.java</url>
-          <line>153</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test.java" />
-    <entry file="file://$PROJECT_DIR$/Codewars4.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RectanglesUnion6c.java" />
     <entry file="file://$PROJECT_DIR$/src/Codewars3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="350">
           <caret line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RectanglesUnion6b.java">
+    <entry file="file://$PROJECT_DIR$/src/RectanglesUnion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="40" selection-end-line="282" selection-end-column="11" />
+        <state relative-caret-position="758">
+          <caret line="335" lean-forward="true" selection-start-line="335" selection-end-line="335" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RectanglesUnion.java">
+    <entry file="file://$PROJECT_DIR$/Codewars4.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="53" column="120" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="120" />
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RectanglesUnion6b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="283" selection-start-line="283" selection-end-line="283" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
