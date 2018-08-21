@@ -4,7 +4,7 @@ package com.company;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ProperFractions {
+public class ProperFractions { // prime numbers and multiples of prime numbers are sexy bitches
     public static long properFractions(long n) {
         for (int i = 3; i < n; i+=2) {
 
