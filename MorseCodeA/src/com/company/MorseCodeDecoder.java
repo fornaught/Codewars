@@ -2,12 +2,8 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-import java.util.TreeMap;
-import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public class MorseCodeDecoder {
     public static String decodeBits(String bits) {
@@ -54,7 +50,7 @@ public class MorseCodeDecoder {
                     result2.append("-");
                     break;
                 case "000":
-                    result2.append(char(32));
+                    result2.append(" ");
                     break;
                 case "0000000":
                     result2.append("   ");
@@ -64,7 +60,11 @@ public class MorseCodeDecoder {
             }
         }
         System.out.println(result2.toString());
-        return result2.toString();
+        return decompose(result2.toString());
+    }
+
+    public static String decompose(String s) {
+        return java.text.Normalizer.normalize(s, java.text.Normalizer.Form.NFKD).replaceAll("\\p{InCombiningDiacriticalMarks}+","");
     }
 
     public static String decodeMorse(String morseCode) {
