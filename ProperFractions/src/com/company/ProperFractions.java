@@ -6,7 +6,8 @@ import java.util.List;
 
 public class ProperFractions { // prime numbers and multiples of prime numbers are sexy bitches
     public static long properFractions(long n) {
-        for (int i = 3; i < n; i+=2) {
+        for (int i = 2; i < 10; i+=2) {
+
 
         }
         return 0;
