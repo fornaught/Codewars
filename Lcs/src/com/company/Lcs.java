@@ -1,30 +1,25 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 class Lcs {
 
-    static String lcs(String a, String b) {
-        recLcs(a,b, "");
-        return "";
-    }
+    static List<String> results = new ArrayList<>();
 
-    static String recLcs(String a, String b, String result){
-        if (a == "" || b == "") {
-            return result;
+    static String lcs(String a, String b) {
+        List<Character> bList = new ArrayList<>();
+        for (Character c : b.toCharArray()) {
+            bList.add(c);
         }
-        for (int i = 0; i < a.length(); i++){
-            for (int j = 0; j < b.length(); j++){
-                if (a.charAt(i) == b.charAt(j)){
-                    result += a.charAt(i);
-                    System.out.println(result);
-                    recLcs(a.substring(i + 1), b.substring(j + 1), result);
-                    break;
-                }
-            }
-            if (i == a.length() -1){
-                System.out.println("hoi " + result);
-                return result;
+        for (int i = 0; i< a.length(); i++) {
+            if (bList.contains(a.charAt(i))) {
+                String bSub = b.substring(b.indexOf(a.charAt(i)));
+                bList = b.
             }
         }
-        return "shieet";
+        return "";
     }
 }
