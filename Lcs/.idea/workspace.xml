@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaa8185c-39b1-498f-9e0c-b7b10eabed55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Battleships/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Battleships/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Battleships/src/com/company/BattleField.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Battleships/src/com/company/BattleField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Battleships/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Battleships/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MorseCodeA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MorseCodeA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,6 +47,7 @@
     <session id="537042652">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -113,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1938" />
@@ -201,7 +199,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25704697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
