@@ -8,38 +8,46 @@ public class BattleField {
     static List<String> ships = new ArrayList<>();
 
     public static boolean fieldValidator(int[][] field) {
-
-        return false;
+        ships.clear();
+        field = detectShipsHorizontal(field);
+        field = detectShipsVertical(field);
+        if (shipCheck())
+        return clearWaters(field);
+        else return false;
     }
 
     public static int[][] detectShipsHorizontal(int[][] field) {
-        for (int[] array : field) {
+        for (int j = 0; j < 10; j++) {
             int shipCounter = 0;
-            for (int i : array) {
-                if (array[i] == 1) {
+            for (int i = 0; i < 10; i++) {
+                if (field[j][i] == 1 ||field[j][i] == 5) {
                     shipCounter++;
-                } else if ((array[i] == 0 || i == array.length -1) && shipCounter > 0) {
+                } else if ((field[j][i] == 0 || i == field[j].length -1) && shipCounter > 0) {
                     switch (shipCounter) {
                         case 1:
-                            array[i - 1] = 5;
+                            field[j][i - 1] = 5;
+                            shipCounter = 0;
                             break;
                         case 2:
-                            array[i - 1] = 2;
-                            array[i - 2] = 2;
-                            ships.add("Sweeper");
+                            field[j][i - 1] = 2;
+                            field[j][i - 2] = 2;
+                            ships.add("Destroyer");
+                            shipCounter = 0;
                             break;
                         case 3:
-                            array[i - 1] = 3;
-                            array[i - 2] = 3;
-                            array[i - 3] = 3;
-                            ships.add("Destroyer");
+                            field[j][i - 1] = 3;
+                            field[j][i - 2] = 3;
+                            field[j][i - 3] = 3;
+                            ships.add("Cruiser");
+                            shipCounter = 0;
                             break;
                         case 4:
-                            array[i - 1] = 4;
-                            array[i - 2] = 4;
-                            array[i - 3] = 4;
-                            array[i - 4] = 4;
-                            ships.add("Cruiser");
+                            field[j][i - 1] = 4;
+                            field[j][i - 2] = 4;
+                            field[j][i - 3] = 4;
+                            field[j][i - 4] = 4;
+                            ships.add("Battleship");
+                            shipCounter = 0;
                             break;
                     }
                 }
@@ -50,47 +58,63 @@ public class BattleField {
 
     public static int[][] detectShipsVertical(int[][] field) {
         for (int i = 0; i < 10 ; i++){
+            int shipCounter = 0;
             for (int j = 0; j < 10; j++) {
-                int shipCounter = 0;
                 if (field[j][i] == 1 || field[j][i] == 5) {
                     shipCounter++;
                 } else if ((field[j][i] == 0 || j == 9) && shipCounter > 0) {
                     switch (shipCounter) {
                         case 1:
                             field[j - 1][i] = 5;
+                            ships.add("Sub");
+                            shipCounter = 0;
                             break;
                         case 2:
                             field[j - 1][i] = 2;
                             field[j - 2][i] = 2;
-                            ships.add("Sweeper");
+                            ships.add("Destroyer");
+                            shipCounter = 0;
                             break;
                         case 3:
                             field[j - 1][i] = 3;
                             field[j - 2][i] = 3;
                             field[j - 3][i] = 3;
-                            ships.add("Destroyer");
+                            ships.add("Cruiser");
+                            shipCounter = 0;
                             break;
                         case 4:
                             field[j - 1][i] = 4;
                             field[j - 2][i] = 4;
                             field[j - 3][i] = 4;
                             field[j - 4][i] = 4;
-                            ships.add("Cruiser");
+                            ships.add("Battleship");
+                            shipCounter = 0;
                             break;
                     }
                 }
             }
         }
-
     return field;
+    }
+
+    public static boolean shipCheck() {
+        if (ships.stream().filter(x -> x =="Sub").count() ==4
+        && ships.stream().filter(x -> x =="Destroyer").count() == 3
+        && ships.stream().filter(x -> x =="Cruiser").count() == 2
+        && ships.stream().filter(x -> x =="Battleship").count() == 1) {
+            return true;
+        }
+        else return false;
     }
 
     public static boolean clearWaters(int[][] field){
         for (int i = 1; i < 10; i++){
-            for (int j = 0; j < 10; j++){
-                //count 2*2, give ships unigue sum values i.e. cruiser = 1000, destroyer = 500, etc.
+            for (int j = 1; j < 10; j++){
+                if (field[j - 1][i - 1] > 0 && field[j][i] > 0 || (field[i -1][j] > 0 && field[i][j -1] > 0)) {
+                    return false;
+                }
             }
         }
-        return false;
+        return true;
     }
 }
